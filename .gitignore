@@ -1,2 +1,37 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# Environment files
 .env
-mongo-crud-app/server.js
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+*.log
+*.pid
+
+# MongoDB (if you ever dump or backup)
+dump/
+*.lock
+*.db
+data/
+*.snappy
+
+# Editor/OS clutter
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Optional: React frontend (if you add one)
+mongo-crud-ui/node_modules/
+mongo-crud-ui/build/
+mongo-crud-ui/.env
